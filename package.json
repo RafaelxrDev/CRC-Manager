@@ -1,0 +1,20 @@
+{
+  "name": "crc-manager",
+  "version": "1.0.0",
+  "description": "uma aplicação desktop desenvolvida com Electron e Node.js para auxiliar na gestão do Centro de Recursos Computacionais (CRC).",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelxrDev/CRC-Manager.git"
+  },
+  "author": "Rafael Xavier Rezende",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RafaelxrDev/CRC-Manager/issues"
+  },
+  "homepage": "https://github.com/RafaelxrDev/CRC-Manager#readme"
+}
