@@ -16,4 +16,15 @@ function createWindow() {
   win.loadFile('views/index.html');
 }
 
-app.whenReady().then(createWindow);
+const geradorWindow = () => {
+const gerador = new BrowserWindow ({ width: 800, height: 500,
+    icon: path.join(__dirname, 'src/img/crc-manager-icon.png')
+})
+gerador.loadFile('views/gerador.html')
+}
+
+app.whenReady().then(() =>{
+    createWindow()
+    geradorWindow()
+});
+
